@@ -1,0 +1,15 @@
+let how=prompt("how many times you want to run localstorage")
+for(let i=0;i<=how;i++)
+{
+let key=prompt("enter key")
+let value=prompt("enter value")
+localStorage.setItem(key,value)
+console.log(`teh value at${key} is ${localStorage.getItem(key)}`)
+}
+let save=confirm("you want to delete")
+  if(confirm)
+{
+let key=prompt("enter key")
+let value=prompt("enter value")
+  localStorage.removeItem(key)
+}
