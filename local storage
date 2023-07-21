@@ -1,0 +1,7 @@
+localStorage.setItem('username', 'JohnDoe');
+const username = localStorage.getItem('username');
+console.log(username); // Output: JohnDoe
+localStorage.removeItem('username');
+localStorage.clear();
+const itemCount = localStorage.length;
+console.log(itemCount);
